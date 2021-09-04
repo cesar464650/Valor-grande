@@ -1,0 +1,26 @@
+#include <stdio.h>
+//Flores Castillo Cesar Roberto
+
+int main(void){
+	int A, B;
+	int i, sum, d, arr[i];
+	int nmayor=0, total=0;
+	
+	printf("Indica el valor de A\n");
+	scanf("%d",&A);
+	printf("Indica el valor de B\n");
+	scanf("%d",&B);
+	
+	if(A>B)
+	 nmayor=A;
+	else
+	 nmayor=B;
+	
+	for(i=1; i<=nmayor; i++){
+		total=total+i;
+		printf("%d+\n",i);
+	}
+	printf("Sumatoria total:%d\n",total);
+
+	return 0;
+}
